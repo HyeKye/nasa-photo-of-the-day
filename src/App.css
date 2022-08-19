@@ -24,6 +24,17 @@
   color: white;
 }
 
+.nasa-photo-wrapper {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+img {
+  max-width: 75%;
+  object-fit: cover;
+}
+
 .App-link {
   color: #61dafb;
 }
